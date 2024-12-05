@@ -1,6 +1,6 @@
 body {
-  background: rgb(43,0,45);
-  background: linear-gradient(168deg, rgba(43,0,45,1) 0%, rgba(148,18,168,1) 25%, rgba(223,78,172,1) 50%, rgba(230,255,0,1) 100%);
+    background: rgb(43,0,45);
+    background: linear-gradient(168deg, rgba(43,0,45,1) 0%, rgba(81,9,92,1) 25%, rgba(128,28,93,1) 50%, rgba(255,169,0,1) 100%); 
 }
 h1 {
   color: blue;
