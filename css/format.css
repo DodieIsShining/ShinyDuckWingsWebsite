@@ -1,10 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+#biglogo
+{
+    display:block;
+    margin:auto;
+    padding-top: 60px;
+}
+
+#gif
+{
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+
+#project
+{
+    padding-top:100px;
+}
+
+.wrapper
+{
+  margin-top: 9%;
+}
+
+.wrapper h1
+{
+  font-family: 'Allura',cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team
+{
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team .teammember
+{
+  background-color: #fff;
+  margin:5px;
+  margin-bottom: 50px;
+  width: 300px;
+  line-height: 20px;
+  color: #b15ce6;
+  position: relative;
+}
+
+.team .teammember h3
+{
+  color: #320038;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .teammember p.role{
+  color:#323232;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
+.team .teammember p
+{
+  margin: 20px;
+}
+
+.team .teammember .picteam
+{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left:50%;
+  transform: translateX(-50%);
+  background: #fff;
+}
+
+.team .teammember .picteam img
+{
+  width: 100px;
+  height: 100px;
+  padding:10px;
+}
+
+.line
+{
+    border-bottom: 5px solid #320038;
+    padding-top:40px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.downloaddoc
+{
+    background-color:#320038;
+    color:white;
+    border: 2px solid #b15ce6;
+    display:block;
+    margin:auto;
+}
+
+.downloaddoc:hover
+{
+    color:black;
+    background-color:#b15ce6;
+}
+
+.navbar
+{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+  overflow: hidden;
+  background-color: #320038;
+}
+
+.tab
+{
+  float:left;
+}
+
+.tab a
+{
+  display: block;
+  color: white;
+  font-size: 1.5vw;
+  text-align: center;
+  padding:14px 50px;
+  text-decoration: none;
+  border-left: 1px solid #b15ce6;
+  border-right: 1px solid #b15ce6;
+}
+
+.tab a:hover
+{
+  background-color: #200024;
+}
+
+.active
+{
+  background-color: #b15ce6;
+}
+
+.separator
+{
+  text-align: center;
+  padding: 0 20px;
+  color:#200024;
+  font-size: 5vw;
+}
+
+*{
+  box-sizing: border-box;
+}
+
 body {
-    background: rgb(43,0,45);
-    background: linear-gradient(168deg, rgba(43,0,45,1) 0%, rgba(81,9,92,1) 25%, rgba(128,28,93,1) 50%, rgba(255,169,0,1) 100%); 
+  background: linear-gradient(168deg, rgba(43,0,45,1) 0%, rgba(81,9,92,1) 25%, rgba(128,28,93,1) 50%, rgba(255,169,0,1) 100%); 
+  font-family: 'Josefin Sans', sans-serif;
 }
-h1 {
-  color: blue;
+
+h2.underus
+{
+  padding-top: 0;
 }
-p {
-  color: red;
+
+h2 {
+  padding-top: 60px;
+  color: #320038;
+  text-align: center;
+}
+
+h3
+{
+  color: #323232;
+  text-align: center;
 }
