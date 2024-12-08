@@ -172,17 +172,24 @@
   font-size: 5vw;
 }
 
+.downloadlink
+{
+  text-align: center;
+  margin-top:18%;
+}
+
+.gitdownload
+{
+  text-decoration: none;
+}
+
 *{
   box-sizing: border-box;
-  padding:0;
-  margin:0;
 }
 
 body {
   background: linear-gradient(168deg, rgba(43,0,45,1) 0%, rgba(81,9,92,1) 25%, rgba(128,28,93,1) 50%, rgba(255,169,0,1) 100%); 
   font-family: 'Josefin Sans', sans-serif;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 h2.underus
